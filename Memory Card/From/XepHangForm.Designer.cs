@@ -1,6 +1,6 @@
 ﻿namespace Memory_Card.From
 {
-    partial class TongKet
+    partial class frmXepHang
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmXepHang
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "TongKet";
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.ClientSize = new System.Drawing.Size(978, 694);
+            this.Name = "frmXepHang";
+            this.Text = "Memory Card - Xếp Hạng";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Memory_Card.From
 {
-    public partial class MainForm : Form
+    public partial class frmMain : Form
     {
-        public MainForm()
+        public frmMain()
         {
             InitializeComponent();
         }

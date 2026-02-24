@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Memory_Card.From
 {
-    public partial class Ranking : Form
+    public partial class frmXepHang : Form
     {
-        public Ranking()
+        public frmXepHang()
         {
             InitializeComponent();
         }

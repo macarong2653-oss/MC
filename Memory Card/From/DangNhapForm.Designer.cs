@@ -1,6 +1,6 @@
 ﻿namespace Memory_Card.From
 {
-    partial class LoginForm
+    partial class frmDangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -142,7 +142,7 @@
             this.lblTitle.TabIndex = 2;
             this.lblTitle.Text = "MEMORY CARD GAME";
             // 
-            // LoginForm
+            // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,7 +151,7 @@
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.grpLogin);
             this.MaximizeBox = false;
-            this.Name = "LoginForm";
+            this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory Card - Đăng Nhập";
             this.grpLogin.ResumeLayout(false);

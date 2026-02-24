@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Memory_Card.From.CaiDat
+namespace Memory_Card.From
 {
-    public partial class MenuSetting : Form
+    public partial class frmLuu : Form
     {
-        public MenuSetting()
+        public frmLuu()
         {
             InitializeComponent();
         }

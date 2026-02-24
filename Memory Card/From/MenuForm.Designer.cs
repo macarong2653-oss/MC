@@ -1,6 +1,6 @@
 ﻿namespace Memory_Card.From
 {
-    partial class MenuForm
+    partial class frmMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -238,7 +238,7 @@
             this.btnQuit.Text = "✖ Thoát";
             this.btnQuit.UseVisualStyleBackColor = false;
             // 
-            // MenuForm
+            // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -262,9 +262,9 @@
             this.Controls.Add(this.lblPlayer);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MaximizeBox = false;
-            this.Name = "MenuForm";
+            this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MenuForm";
+            this.Text = "Memory Card - Menu";
             this.ResumeLayout(false);
             this.PerformLayout();
 

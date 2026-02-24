@@ -1,6 +1,6 @@
 ﻿namespace Memory_Card.From
 {
-    partial class TongKetForm
+    partial class frmTongKet
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.grpTongKet = new System.Windows.Forms.GroupBox();
+            this.btnXepHang = new System.Windows.Forms.Button();
+            this.btnMenu = new System.Windows.Forms.Button();
+            this.btnChoiLai = new System.Windows.Forms.Button();
             this.grpKetQua = new System.Windows.Forms.GroupBox();
             this.lblOutDiemSo = new System.Windows.Forms.Label();
             this.lblOutSoLuotThu = new System.Windows.Forms.Label();
@@ -38,9 +41,6 @@
             this.lblThoiGian = new System.Windows.Forms.Label();
             this.lblKetQua = new System.Windows.Forms.Label();
             this.lblChucMung = new System.Windows.Forms.Label();
-            this.btnChoiLai = new System.Windows.Forms.Button();
-            this.btnMenu = new System.Windows.Forms.Button();
-            this.btnXepHang = new System.Windows.Forms.Button();
             this.grpTongKet.SuspendLayout();
             this.grpKetQua.SuspendLayout();
             this.SuspendLayout();
@@ -61,6 +61,42 @@
             this.grpTongKet.TabIndex = 0;
             this.grpTongKet.TabStop = false;
             this.grpTongKet.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // btnXepHang
+            // 
+            this.btnXepHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnXepHang.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnXepHang.ForeColor = System.Drawing.Color.White;
+            this.btnXepHang.Location = new System.Drawing.Point(503, 408);
+            this.btnXepHang.Name = "btnXepHang";
+            this.btnXepHang.Size = new System.Drawing.Size(142, 50);
+            this.btnXepHang.TabIndex = 5;
+            this.btnXepHang.Text = "Xếp hạng";
+            this.btnXepHang.UseVisualStyleBackColor = false;
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.BackColor = System.Drawing.Color.Blue;
+            this.btnMenu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnMenu.ForeColor = System.Drawing.Color.White;
+            this.btnMenu.Location = new System.Drawing.Point(333, 408);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(142, 50);
+            this.btnMenu.TabIndex = 4;
+            this.btnMenu.Text = "Menu";
+            this.btnMenu.UseVisualStyleBackColor = false;
+            // 
+            // btnChoiLai
+            // 
+            this.btnChoiLai.BackColor = System.Drawing.Color.Lime;
+            this.btnChoiLai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnChoiLai.ForeColor = System.Drawing.Color.White;
+            this.btnChoiLai.Location = new System.Drawing.Point(165, 408);
+            this.btnChoiLai.Name = "btnChoiLai";
+            this.btnChoiLai.Size = new System.Drawing.Size(142, 50);
+            this.btnChoiLai.TabIndex = 3;
+            this.btnChoiLai.Text = "Chơi lại";
+            this.btnChoiLai.UseVisualStyleBackColor = false;
             // 
             // grpKetQua
             // 
@@ -156,51 +192,15 @@
             this.lblChucMung.TabIndex = 0;
             this.lblChucMung.Text = "CHÚC MỪNG!";
             // 
-            // btnChoiLai
-            // 
-            this.btnChoiLai.BackColor = System.Drawing.Color.Lime;
-            this.btnChoiLai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnChoiLai.ForeColor = System.Drawing.Color.White;
-            this.btnChoiLai.Location = new System.Drawing.Point(165, 408);
-            this.btnChoiLai.Name = "btnChoiLai";
-            this.btnChoiLai.Size = new System.Drawing.Size(142, 50);
-            this.btnChoiLai.TabIndex = 3;
-            this.btnChoiLai.Text = "Chơi lại";
-            this.btnChoiLai.UseVisualStyleBackColor = false;
-            // 
-            // btnMenu
-            // 
-            this.btnMenu.BackColor = System.Drawing.Color.Blue;
-            this.btnMenu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnMenu.ForeColor = System.Drawing.Color.White;
-            this.btnMenu.Location = new System.Drawing.Point(333, 408);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(142, 50);
-            this.btnMenu.TabIndex = 4;
-            this.btnMenu.Text = "Menu";
-            this.btnMenu.UseVisualStyleBackColor = false;
-            // 
-            // btnXepHang
-            // 
-            this.btnXepHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnXepHang.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnXepHang.ForeColor = System.Drawing.Color.White;
-            this.btnXepHang.Location = new System.Drawing.Point(503, 408);
-            this.btnXepHang.Name = "btnXepHang";
-            this.btnXepHang.Size = new System.Drawing.Size(142, 50);
-            this.btnXepHang.TabIndex = 5;
-            this.btnXepHang.Text = "Xếp hạng";
-            this.btnXepHang.UseVisualStyleBackColor = false;
-            // 
-            // TongKetForm
+            // frmTongKet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.ClientSize = new System.Drawing.Size(978, 694);
             this.Controls.Add(this.grpTongKet);
-            this.Name = "TongKetForm";
-            this.Text = "TongKetForm";
+            this.Name = "frmTongKet";
+            this.Text = "Memory Card - Tổng Kết";
             this.grpTongKet.ResumeLayout(false);
             this.grpTongKet.PerformLayout();
             this.grpKetQua.ResumeLayout(false);

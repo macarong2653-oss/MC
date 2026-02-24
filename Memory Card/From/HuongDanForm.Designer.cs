@@ -1,6 +1,6 @@
 ﻿namespace Memory_Card.From
 {
-    partial class HuongDanForm
+    partial class frmHuongDan
     {
         /// <summary>
         /// Required designer variable.
@@ -310,7 +310,7 @@
             this.btnPlay.Text = "Chơi ->";
             this.btnPlay.UseVisualStyleBackColor = false;
             // 
-            // HuongDanForm
+            // frmHuongDan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -320,9 +320,9 @@
             this.Controls.Add(this.btnQuayLai);
             this.Controls.Add(this.grpHuongDan);
             this.Controls.Add(this.lblHuongDan);
-            this.Name = "HuongDanForm";
+            this.Name = "frmHuongDan";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Text = "HuongDanForm";
+            this.Text = "Memory Card - Hướng Dẫn";
             this.grpHuongDan.ResumeLayout(false);
             this.grpHuongDan.PerformLayout();
             this.ResumeLayout(false);
