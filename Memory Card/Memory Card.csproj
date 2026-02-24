@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+ HEAD
     <Compile Include="From\CaiDat\MenuSetting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +58,13 @@
     </Compile>
     <Compile Include="From\HuongDan.Designer.cs">
       <DependentUpon>HuongDan.cs</DependentUpon>
-=======
+
     <Compile Include="From\HuongDanForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="From\HuongDanForm.Designer.cs">
       <DependentUpon>HuongDanForm.cs</DependentUpon>
->>>>>>> 7b60e597e8f3fa49e8aca31ba558e521606512df
+ 7b60e597e8f3fa49e8aca31ba558e521606512df
     </Compile>
     <Compile Include="From\LoginForm.cs">
       <SubType>Form</SubType>
@@ -72,7 +72,7 @@
     <Compile Include="From\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
+ HEAD
     <Compile Include="From\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,7 +107,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="From\CaiDat\MenuSetting.resx">
       <DependentUpon>MenuSetting.cs</DependentUpon>
-=======
+
     <Compile Include="From\TongKetForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,18 +118,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="From\HuongDanForm.resx">
       <DependentUpon>HuongDanForm.cs</DependentUpon>
->>>>>>> 7b60e597e8f3fa49e8aca31ba558e521606512df
+ 7b60e597e8f3fa49e8aca31ba558e521606512df
     </EmbeddedResource>
     <EmbeddedResource Include="From\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
+ HEAD
     <EmbeddedResource Include="From\MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
-=======
+
     <EmbeddedResource Include="From\TongKetForm.resx">
       <DependentUpon>TongKetForm.cs</DependentUpon>
->>>>>>> 7b60e597e8f3fa49e8aca31ba558e521606512df
+ 7b60e597e8f3fa49e8aca31ba558e521606512df
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
