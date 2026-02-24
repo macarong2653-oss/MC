@@ -21,5 +21,15 @@ namespace Memory_Card.From
         {
 
         }
+
+        private void grpKetQua_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblDiemSo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
