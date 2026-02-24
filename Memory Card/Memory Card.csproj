@@ -46,112 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
- HEAD
     <Compile Include="From\CaiDat\MenuSetting.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="From\CaiDat\MenuSetting.Designer.cs">
       <DependentUpon>MenuSetting.cs</DependentUpon>
     </Compile>
+
     <Compile Include="From\HuongDan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="From\HuongDan.Designer.cs">
       <DependentUpon>HuongDan.cs</DependentUpon>
-
+    </Compile>
     <Compile Include="From\HuongDanForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="From\HuongDanForm.Designer.cs">
       <DependentUpon>HuongDanForm.cs</DependentUpon>
- 7b60e597e8f3fa49e8aca31ba558e521606512df
     </Compile>
+
     <Compile Include="From\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="From\LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </Compile>
- HEAD
-    <Compile Include="From\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="From\MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="From\MenuForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="From\MenuForm.Designer.cs">
-      <DependentUpon>MenuForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="From\OutOrSave.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="From\OutOrSave.Designer.cs">
-      <DependentUpon>OutOrSave.cs</DependentUpon>
-    </Compile>
-    <Compile Include="From\Ranking.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="From\Ranking.Designer.cs">
-      <DependentUpon>Ranking.cs</DependentUpon>
-    </Compile>
-    <Compile Include="From\TongKet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="From\TongKet.Designer.cs">
-      <DependentUpon>TongKet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="From\CaiDat\MenuSetting.resx">
-      <DependentUpon>MenuSetting.cs</DependentUpon>
-
-    <Compile Include="From\TongKetForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="From\TongKetForm.Designer.cs">
-      <DependentUpon>TongKetForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="From\HuongDanForm.resx">
-      <DependentUpon>HuongDanForm.cs</DependentUpon>
- 7b60e597e8f3fa49e8aca31ba558e521606512df
-    </EmbeddedResource>
-    <EmbeddedResource Include="From\LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </EmbeddedResource>
- HEAD
-    <EmbeddedResource Include="From\MenuForm.resx">
-      <DependentUpon>MenuForm.cs</DependentUpon>
-
-    <EmbeddedResource Include="From\TongKetForm.resx">
-      <DependentUpon>TongKetForm.cs</DependentUpon>
- 7b60e597e8f3fa49e8aca31ba558e521606512df
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="From\LevelForm\" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-</Project>
+    <Compile Include="From\LoginForm.Designer.cs
