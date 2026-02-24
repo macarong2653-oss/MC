@@ -20,7 +20,7 @@ namespace Memory_Card.From
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void lblTitle_Click(object sender, EventArgs e)
         {
 
         }
@@ -34,13 +34,24 @@ namespace Memory_Card.From
         {
 
         }
-
-        private void label1_Click_1(object sender, EventArgs e)
+        private void lblPlayerName_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnGuest_Click(object sender, EventArgs e)
+        {
+            //GameSettings.PlayerName = "Guest";
+            //GameSettings.IsGuest = true;
+            //frmMainMenu mainMenu = new frmMainMenu();
+            //mainMenu.Show();
+            //this.Hide();
+            // Hello
+        }
+
+        
+
+        private void btnPlay_Click(object sender, EventArgs e)
         {
             string playerName = txtPlayerName.Text.Trim();
 
@@ -55,10 +66,10 @@ namespace Memory_Card.From
                 return;
             }
 
-            if (playerName.Length > 15)
+            if (playerName.Length < 2 || playerName.Length > 15)
             {
                 MessageBox.Show(
-                    "Tên không được vượt quá 15 ký tự !",
+                    "Tên phải từ 2 đến 15 ký tự !",
                     "Thông báo",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
@@ -69,15 +80,18 @@ namespace Memory_Card.From
             //menuForm.Show();
             //this.Hide();
         }
-
-        private void btnGuest_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-            //GameSettings.PlayerName = "Guest";
-            //GameSettings.IsGuest = true;
-            //frmMainMenu mainMenu = new frmMainMenu();
-            //mainMenu.Show();
-            //this.Hide();
-            // Hello
+            DialogResult result = MessageBox.Show(
+                "Bạn có chắc muốn thoát không ?",
+                "Xác nhận",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+                Close();
+            else if(result == DialogResult.No)
+                return;
         }
+
     }
 }
