@@ -43,7 +43,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblTitle.Location = new System.Drawing.Point(255, 122);
+            this.lblTitle.Location = new System.Drawing.Point(228, 113);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(547, 56);
             this.lblTitle.TabIndex = 0;
@@ -61,7 +61,7 @@
             this.grpLogin.Controls.Add(this.lblĐăngNhập);
             this.grpLogin.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(117)))), ((int)(((byte)(182)))));
-            this.grpLogin.Location = new System.Drawing.Point(319, 212);
+            this.grpLogin.Location = new System.Drawing.Point(288, 187);
             this.grpLogin.Name = "grpLogin";
             this.grpLogin.Size = new System.Drawing.Size(417, 346);
             this.grpLogin.TabIndex = 1;
@@ -134,7 +134,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.ClientSize = new System.Drawing.Size(1055, 716);
+            this.ClientSize = new System.Drawing.Size(978, 694);
             this.Controls.Add(this.grpLogin);
             this.Controls.Add(this.lblTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
