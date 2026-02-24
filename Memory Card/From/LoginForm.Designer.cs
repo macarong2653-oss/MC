@@ -30,11 +30,11 @@
         {
             this.lblTitle = new System.Windows.Forms.Label();
             this.grpLogin = new System.Windows.Forms.GroupBox();
-            this.lblĐăngNhập = new System.Windows.Forms.Label();
-            this.lblPlayerName = new System.Windows.Forms.Label();
-            this.txtPlayerName = new System.Windows.Forms.TextBox();
-            this.btnStart = new System.Windows.Forms.Button();
             this.btnGuest = new System.Windows.Forms.Button();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.txtPlayerName = new System.Windows.Forms.TextBox();
+            this.lblPlayerName = new System.Windows.Forms.Label();
+            this.lblĐăngNhập = new System.Windows.Forms.Label();
             this.grpLogin.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,38 +68,19 @@
             this.grpLogin.TabStop = false;
             this.grpLogin.Enter += new System.EventHandler(this.grpLogin_Enter);
             // 
-            // lblĐăngNhập
+            // btnGuest
             // 
-            this.lblĐăngNhập.AutoSize = true;
-            this.lblĐăngNhập.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblĐăngNhập.Location = new System.Drawing.Point(99, 36);
-            this.lblĐăngNhập.Name = "lblĐăngNhập";
-            this.lblĐăngNhập.Size = new System.Drawing.Size(235, 43);
-            this.lblĐăngNhập.TabIndex = 0;
-            this.lblĐăngNhập.Text = "ĐĂNG NHẬP";
-            this.lblĐăngNhập.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lblĐăngNhập.Click += new System.EventHandler(this.lblĐăngNhập_Click);
-            // 
-            // lblPlayerName
-            // 
-            this.lblPlayerName.AutoSize = true;
-            this.lblPlayerName.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlayerName.ForeColor = System.Drawing.Color.Black;
-            this.lblPlayerName.Location = new System.Drawing.Point(39, 114);
-            this.lblPlayerName.Name = "lblPlayerName";
-            this.lblPlayerName.Size = new System.Drawing.Size(165, 25);
-            this.lblPlayerName.TabIndex = 1;
-            this.lblPlayerName.Text = "Tên người chơi:";
-            this.lblPlayerName.Click += new System.EventHandler(this.label1_Click_1);
-            // 
-            // txtPlayerName
-            // 
-            this.txtPlayerName.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPlayerName.Location = new System.Drawing.Point(44, 151);
-            this.txtPlayerName.MaxLength = 20;
-            this.txtPlayerName.Name = "txtPlayerName";
-            this.txtPlayerName.Size = new System.Drawing.Size(333, 40);
-            this.txtPlayerName.TabIndex = 2;
+            this.btnGuest.BackColor = System.Drawing.Color.Silver;
+            this.btnGuest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuest.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuest.ForeColor = System.Drawing.Color.White;
+            this.btnGuest.Location = new System.Drawing.Point(242, 237);
+            this.btnGuest.Name = "btnGuest";
+            this.btnGuest.Size = new System.Drawing.Size(135, 55);
+            this.btnGuest.TabIndex = 3;
+            this.btnGuest.Text = "GUEST";
+            this.btnGuest.UseVisualStyleBackColor = false;
+            this.btnGuest.Click += new System.EventHandler(this.btnGuest_Click);
             // 
             // btnStart
             // 
@@ -115,19 +96,38 @@
             this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btnGuest
+            // txtPlayerName
             // 
-            this.btnGuest.BackColor = System.Drawing.Color.Silver;
-            this.btnGuest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuest.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuest.ForeColor = System.Drawing.Color.White;
-            this.btnGuest.Location = new System.Drawing.Point(242, 237);
-            this.btnGuest.Name = "btnGuest";
-            this.btnGuest.Size = new System.Drawing.Size(135, 55);
-            this.btnGuest.TabIndex = 3;
-            this.btnGuest.Text = "GUEST";
-            this.btnGuest.UseVisualStyleBackColor = false;
-            this.btnGuest.Click += new System.EventHandler(this.btnGuest_Click);
+            this.txtPlayerName.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPlayerName.Location = new System.Drawing.Point(44, 151);
+            this.txtPlayerName.MaxLength = 20;
+            this.txtPlayerName.Name = "txtPlayerName";
+            this.txtPlayerName.Size = new System.Drawing.Size(333, 40);
+            this.txtPlayerName.TabIndex = 2;
+            // 
+            // lblPlayerName
+            // 
+            this.lblPlayerName.AutoSize = true;
+            this.lblPlayerName.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayerName.ForeColor = System.Drawing.Color.Black;
+            this.lblPlayerName.Location = new System.Drawing.Point(39, 114);
+            this.lblPlayerName.Name = "lblPlayerName";
+            this.lblPlayerName.Size = new System.Drawing.Size(165, 25);
+            this.lblPlayerName.TabIndex = 1;
+            this.lblPlayerName.Text = "Tên người chơi:";
+            this.lblPlayerName.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // lblĐăngNhập
+            // 
+            this.lblĐăngNhập.AutoSize = true;
+            this.lblĐăngNhập.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblĐăngNhập.Location = new System.Drawing.Point(99, 36);
+            this.lblĐăngNhập.Name = "lblĐăngNhập";
+            this.lblĐăngNhập.Size = new System.Drawing.Size(235, 43);
+            this.lblĐăngNhập.TabIndex = 0;
+            this.lblĐăngNhập.Text = "ĐĂNG NHẬP";
+            this.lblĐăngNhập.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblĐăngNhập.Click += new System.EventHandler(this.lblĐăngNhập_Click);
             // 
             // LoginForm
             // 

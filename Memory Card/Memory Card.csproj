@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="From\HuongDanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From\HuongDanForm.Designer.cs">
+      <DependentUpon>HuongDanForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="From\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="From\HuongDanForm.resx">
+      <DependentUpon>HuongDanForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="From\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
