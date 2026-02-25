@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Memory_Card.From
 {
-    public partial class TongKetForm : Form
+    public partial class frmTongKet : Form
     {
-        public TongKetForm()
+        public frmTongKet()
         {
             InitializeComponent();
         }
