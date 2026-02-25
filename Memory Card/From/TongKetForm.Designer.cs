@@ -243,7 +243,12 @@
             this.ClientSize = new System.Drawing.Size(978, 694);
             this.Controls.Add(this.grpTongKet);
             this.MaximizeBox = false;
+<<<<<<< HEAD
             this.Name = "frmTongKet";
+=======
+            this.Name = "TongKetForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+>>>>>>> 242a07b38dd591778f193bab4af3499a7e665938
             this.Text = "Memory Card - Tổng Kết";
             this.grpTongKet.ResumeLayout(false);
             this.grpTongKet.PerformLayout();
