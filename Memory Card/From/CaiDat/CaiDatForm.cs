@@ -16,5 +16,15 @@ namespace Memory_Card.From.CaiDat
         {
             InitializeComponent();
         }
+
+        private void trackAmThanh_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAmThanh_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
