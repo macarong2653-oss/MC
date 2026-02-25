@@ -1,6 +1,6 @@
 ﻿namespace Memory_Card.From
 {
-    partial class frmTongKet
+    partial class TongKetForm
     {
         /// <summary>
         /// Required designer variable.
@@ -192,14 +192,15 @@
             this.lblChucMung.TabIndex = 0;
             this.lblChucMung.Text = "CHÚC MỪNG!";
             // 
-            // frmTongKet
+            // TongKetForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.ClientSize = new System.Drawing.Size(978, 694);
             this.Controls.Add(this.grpTongKet);
-            this.Name = "frmTongKet";
+            this.MaximizeBox = false;
+            this.Name = "TongKetForm";
             this.Text = "Memory Card - Tổng Kết";
             this.grpTongKet.ResumeLayout(false);
             this.grpTongKet.PerformLayout();
