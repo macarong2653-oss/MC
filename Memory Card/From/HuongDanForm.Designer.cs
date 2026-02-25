@@ -1,6 +1,6 @@
 ﻿namespace Memory_Card.From
 {
-    partial class HuongDanForm
+    partial class frmHuongDan
     {
         /// <summary>
         /// Required designer variable.
@@ -322,6 +322,7 @@
             this.Controls.Add(this.lblHuongDan);
             this.Name = "frmHuongDan";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory Card - Hướng Dẫn";
             this.grpHuongDan.ResumeLayout(false);
             this.grpHuongDan.PerformLayout();

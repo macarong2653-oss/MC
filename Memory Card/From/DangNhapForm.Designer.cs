@@ -1,6 +1,6 @@
 ﻿namespace Memory_Card.From
 {
-    partial class DangNhapForm
+    partial class frmDangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -138,7 +138,7 @@
             this.lblDN.TabIndex = 0;
             this.lblDN.Text = "ĐĂNG NHẬP";
             // 
-            // DangNhapForm
+            // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -147,7 +147,7 @@
             this.Controls.Add(this.grpDangNhap);
             this.Controls.Add(this.lblTitle);
             this.MaximizeBox = false;
-            this.Name = "DangNhapForm";
+            this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory Card - Đăng Nhập";
             this.Load += new System.EventHandler(this.DangNhapForm_Load);

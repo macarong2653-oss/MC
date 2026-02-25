@@ -33,6 +33,9 @@
             this.btnMenu = new System.Windows.Forms.Button();
             this.btnReplay = new System.Windows.Forms.Button();
             this.grpKetQua = new System.Windows.Forms.GroupBox();
+            this.lblHint = new System.Windows.Forms.Label();
+            this.lblSoLuotThu = new System.Windows.Forms.Label();
+            this.lblTimes = new System.Windows.Forms.Label();
             this.lblOutDiemSo = new System.Windows.Forms.Label();
             this.lblOutSoLuotThu = new System.Windows.Forms.Label();
             this.lblOutThoiGian = new System.Windows.Forms.Label();
@@ -41,9 +44,6 @@
             this.lblThoiGian = new System.Windows.Forms.Label();
             this.lblKetQua = new System.Windows.Forms.Label();
             this.lblChucMung = new System.Windows.Forms.Label();
-            this.lblTimes = new System.Windows.Forms.Label();
-            this.lblSoLuotThu = new System.Windows.Forms.Label();
-            this.lblHint = new System.Windows.Forms.Label();
             this.grpTongKet.SuspendLayout();
             this.grpKetQua.SuspendLayout();
             this.SuspendLayout();
@@ -122,6 +122,37 @@
             this.grpKetQua.TabIndex = 2;
             this.grpKetQua.TabStop = false;
             this.grpKetQua.Enter += new System.EventHandler(this.grpKetQua_Enter);
+            // 
+            // lblHint
+            // 
+            this.lblHint.AutoSize = true;
+            this.lblHint.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblHint.ForeColor = System.Drawing.Color.Yellow;
+            this.lblHint.Location = new System.Drawing.Point(267, 120);
+            this.lblHint.Name = "lblHint";
+            this.lblHint.Size = new System.Drawing.Size(26, 29);
+            this.lblHint.TabIndex = 8;
+            this.lblHint.Text = "0";
+            // 
+            // lblSoLuotThu
+            // 
+            this.lblSoLuotThu.AutoSize = true;
+            this.lblSoLuotThu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblSoLuotThu.Location = new System.Drawing.Point(267, 77);
+            this.lblSoLuotThu.Name = "lblSoLuotThu";
+            this.lblSoLuotThu.Size = new System.Drawing.Size(26, 29);
+            this.lblSoLuotThu.TabIndex = 7;
+            this.lblSoLuotThu.Text = "0";
+            // 
+            // lblTimes
+            // 
+            this.lblTimes.AutoSize = true;
+            this.lblTimes.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblTimes.Location = new System.Drawing.Point(267, 30);
+            this.lblTimes.Name = "lblTimes";
+            this.lblTimes.Size = new System.Drawing.Size(72, 29);
+            this.lblTimes.TabIndex = 6;
+            this.lblTimes.Text = "00:00";
             // 
             // lblOutDiemSo
             // 
@@ -204,37 +235,6 @@
             this.lblChucMung.TabIndex = 0;
             this.lblChucMung.Text = "CHÚC MỪNG!";
             // 
-            // lblTimes
-            // 
-            this.lblTimes.AutoSize = true;
-            this.lblTimes.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblTimes.Location = new System.Drawing.Point(267, 30);
-            this.lblTimes.Name = "lblTimes";
-            this.lblTimes.Size = new System.Drawing.Size(72, 29);
-            this.lblTimes.TabIndex = 6;
-            this.lblTimes.Text = "00:00";
-            // 
-            // lblSoLuotThu
-            // 
-            this.lblSoLuotThu.AutoSize = true;
-            this.lblSoLuotThu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblSoLuotThu.Location = new System.Drawing.Point(267, 77);
-            this.lblSoLuotThu.Name = "lblSoLuotThu";
-            this.lblSoLuotThu.Size = new System.Drawing.Size(26, 29);
-            this.lblSoLuotThu.TabIndex = 7;
-            this.lblSoLuotThu.Text = "0";
-            // 
-            // lblHint
-            // 
-            this.lblHint.AutoSize = true;
-            this.lblHint.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblHint.ForeColor = System.Drawing.Color.Yellow;
-            this.lblHint.Location = new System.Drawing.Point(267, 120);
-            this.lblHint.Name = "lblHint";
-            this.lblHint.Size = new System.Drawing.Size(26, 29);
-            this.lblHint.TabIndex = 8;
-            this.lblHint.Text = "0";
-            // 
             // frmTongKet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -243,12 +243,8 @@
             this.ClientSize = new System.Drawing.Size(978, 694);
             this.Controls.Add(this.grpTongKet);
             this.MaximizeBox = false;
-<<<<<<< HEAD
             this.Name = "frmTongKet";
-=======
-            this.Name = "TongKetForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
->>>>>>> 242a07b38dd591778f193bab4af3499a7e665938
             this.Text = "Memory Card - Tổng Kết";
             this.grpTongKet.ResumeLayout(false);
             this.grpTongKet.PerformLayout();

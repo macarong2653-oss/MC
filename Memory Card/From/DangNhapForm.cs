@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Memory_Card.From
 {
-    public partial class DangNhapForm : Form
+    public partial class frmDangNhap : Form
     {
-        public DangNhapForm()
+        public frmDangNhap()
         {
             InitializeComponent();
         }

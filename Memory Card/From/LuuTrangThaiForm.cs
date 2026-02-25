@@ -10,26 +10,16 @@ using System.Windows.Forms;
 
 namespace Memory_Card.From
 {
-    public partial class frmHuongDan : Form
+    public partial class frmLuuTrangThai : Form
     {
-        public frmHuongDan()
+        public frmLuuTrangThai()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void grpLuuTrangThai_Enter(object sender, EventArgs e)
         {
 
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnQuayLai_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }
