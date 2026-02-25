@@ -201,6 +201,7 @@
             this.Controls.Add(this.grpTongKet);
             this.MaximizeBox = false;
             this.Name = "TongKetForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory Card - Tổng Kết";
             this.grpTongKet.ResumeLayout(false);
             this.grpTongKet.PerformLayout();
