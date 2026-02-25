@@ -90,7 +90,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    
     <EmbeddedResource Include="From\DangNhapForm.resx">
       <DependentUpon>DangNhapForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,10 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="From\CaiDat\" />
-    <Folder Include="From\LevelForm\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Ảnh chụp màn hình 2026-02-25 224449.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

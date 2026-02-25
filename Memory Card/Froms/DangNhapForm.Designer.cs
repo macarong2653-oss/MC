@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Memory_Card.From
+﻿namespace Memory_Card.Form
 {
     partial class frmDangNhap
     {
@@ -158,11 +156,6 @@ namespace Memory_Card.From
             this.ResumeLayout(false);
             this.PerformLayout();
 
-        }
-
-        private void DangNhapForm_Load(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
         }
 
         #endregion
