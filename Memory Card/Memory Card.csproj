@@ -58,6 +58,12 @@
     <Compile Include="From\HuongDanForm.Designer.cs">
       <DependentUpon>HuongDanForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="From\LuuTrangThaiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From\LuuTrangThaiForm.Designer.cs">
+      <DependentUpon>LuuTrangThaiForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="From\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     <Compile Include="From\TongKetForm.Designer.cs">
       <DependentUpon>TongKetForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="From\XepHangForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From\XepHangForm.Designer.cs">
+      <DependentUpon>XepHangForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="From\DangNhapForm.resx">
@@ -84,14 +96,22 @@
     <EmbeddedResource Include="From\HuongDanForm.resx">
       <DependentUpon>HuongDanForm.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="From\LuuTrangThaiForm.resx">
+      <DependentUpon>LuuTrangThaiForm.cs</DependentUpon>
+=======
     <EmbeddedResource Include="From\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+>>>>>>> a07c08d9ec81ad3eb97b684a38a3be611d9bcbc8
     </EmbeddedResource>
     <EmbeddedResource Include="From\MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="From\TongKetForm.resx">
       <DependentUpon>TongKetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From\XepHangForm.resx">
+      <DependentUpon>XepHangForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,6 +121,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,6 +136,9 @@
   <ItemGroup>
     <Folder Include="From\CaiDat\" />
     <Folder Include="From\LevelForm\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ảnh chụp màn hình 2026-02-25 224449.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
