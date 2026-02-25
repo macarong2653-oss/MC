@@ -48,10 +48,5 @@ namespace Memory_Card.From
         {
             
         }
-
-        private void DangNhapForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
