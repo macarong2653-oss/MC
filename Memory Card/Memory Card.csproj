@@ -90,19 +90,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    
     <EmbeddedResource Include="From\DangNhapForm.resx">
       <DependentUpon>DangNhapForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="From\HuongDanForm.resx">
       <DependentUpon>HuongDanForm.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="From\LuuTrangThaiForm.resx">
       <DependentUpon>LuuTrangThaiForm.cs</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="From\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
->>>>>>> a07c08d9ec81ad3eb97b684a38a3be611d9bcbc8
     </EmbeddedResource>
     <EmbeddedResource Include="From\MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>

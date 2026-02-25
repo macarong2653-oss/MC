@@ -138,21 +138,6 @@
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-<<<<<<< HEAD
-            // lblDN
-            // 
-            this.lblDN.AutoSize = true;
-            this.lblDN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblDN.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDN.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblDN.Location = new System.Drawing.Point(78, 42);
-            this.lblDN.Name = "lblDN";
-            this.lblDN.Size = new System.Drawing.Size(235, 43);
-            this.lblDN.TabIndex = 0;
-            this.lblDN.Text = "ĐĂNG NHẬP";
-            // 
-=======
->>>>>>> a07c08d9ec81ad3eb97b684a38a3be611d9bcbc8
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -163,13 +148,9 @@
             this.Controls.Add(this.lblTitle);
             this.MaximizeBox = false;
             this.Name = "frmDangNhap";
-<<<<<<< HEAD
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory Card - Đăng Nhập";
             this.Load += new System.EventHandler(this.DangNhapForm_Load);
-=======
-            this.Text = "DangNhapForm";
->>>>>>> a07c08d9ec81ad3eb97b684a38a3be611d9bcbc8
             this.grpDangNhap.ResumeLayout(false);
             this.grpDangNhap.PerformLayout();
             this.ResumeLayout(false);
