@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.grpLuuTrangThai = new System.Windows.Forms.GroupBox();
-            this.lblLuuTrangThai = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnCo = new System.Windows.Forms.Button();
-            this.btnKhong = new System.Windows.Forms.Button();
             this.picChamHoi = new System.Windows.Forms.PictureBox();
+            this.btnKhong = new System.Windows.Forms.Button();
+            this.btnCo = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblLuuTrangThai = new System.Windows.Forms.Label();
             this.grpLuuTrangThai.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picChamHoi)).BeginInit();
             this.SuspendLayout();
@@ -53,35 +53,13 @@
             this.grpLuuTrangThai.TabStop = false;
             this.grpLuuTrangThai.Enter += new System.EventHandler(this.grpLuuTrangThai_Enter);
             // 
-            // lblLuuTrangThai
+            // picChamHoi
             // 
-            this.lblLuuTrangThai.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblLuuTrangThai.Location = new System.Drawing.Point(53, 141);
-            this.lblLuuTrangThai.Name = "lblLuuTrangThai";
-            this.lblLuuTrangThai.Size = new System.Drawing.Size(420, 53);
-            this.lblLuuTrangThai.TabIndex = 0;
-            this.lblLuuTrangThai.Text = "LƯU TRẠNG THÁI GAME?";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(109, 194);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(296, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Bạn có muốn lưu tiến trình hiện tại không";
-            // 
-            // btnCo
-            // 
-            this.btnCo.BackColor = System.Drawing.Color.Lime;
-            this.btnCo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnCo.ForeColor = System.Drawing.Color.White;
-            this.btnCo.Location = new System.Drawing.Point(119, 239);
-            this.btnCo.Name = "btnCo";
-            this.btnCo.Size = new System.Drawing.Size(109, 57);
-            this.btnCo.TabIndex = 2;
-            this.btnCo.Text = "✓Có";
-            this.btnCo.UseVisualStyleBackColor = false;
+            this.picChamHoi.Location = new System.Drawing.Point(208, 61);
+            this.picChamHoi.Name = "picChamHoi";
+            this.picChamHoi.Size = new System.Drawing.Size(100, 50);
+            this.picChamHoi.TabIndex = 0;
+            this.picChamHoi.TabStop = false;
             // 
             // btnKhong
             // 
@@ -95,17 +73,35 @@
             this.btnKhong.Text = "✖Không";
             this.btnKhong.UseVisualStyleBackColor = false;
             // 
-            // picChamHoi
+            // btnCo
             // 
-            this.picChamHoi.BackColor = System.Drawing.Color.White;
-            this.picChamHoi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picChamHoi.Image = global::Memory_Card.Properties.Resources.Ảnh_chụp_màn_hình_2026_02_25_224449;
-            this.picChamHoi.Location = new System.Drawing.Point(212, 25);
-            this.picChamHoi.Name = "picChamHoi";
-            this.picChamHoi.Size = new System.Drawing.Size(100, 97);
-            this.picChamHoi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picChamHoi.TabIndex = 4;
-            this.picChamHoi.TabStop = false;
+            this.btnCo.BackColor = System.Drawing.Color.Lime;
+            this.btnCo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnCo.ForeColor = System.Drawing.Color.White;
+            this.btnCo.Location = new System.Drawing.Point(119, 239);
+            this.btnCo.Name = "btnCo";
+            this.btnCo.Size = new System.Drawing.Size(109, 57);
+            this.btnCo.TabIndex = 2;
+            this.btnCo.Text = "✓Có";
+            this.btnCo.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(109, 194);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(296, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Bạn có muốn lưu tiến trình hiện tại không";
+            // 
+            // lblLuuTrangThai
+            // 
+            this.lblLuuTrangThai.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblLuuTrangThai.Location = new System.Drawing.Point(53, 141);
+            this.lblLuuTrangThai.Name = "lblLuuTrangThai";
+            this.lblLuuTrangThai.Size = new System.Drawing.Size(420, 53);
+            this.lblLuuTrangThai.TabIndex = 0;
+            this.lblLuuTrangThai.Text = "LƯU TRẠNG THÁI GAME?";
             // 
             // frmLuuTrangThai
             // 
