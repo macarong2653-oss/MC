@@ -37,6 +37,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.ClientSize = new System.Drawing.Size(978, 694);
             this.Name = "frmCaiDat";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory Card - Cài Đặt";
             this.ResumeLayout(false);
 

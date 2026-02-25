@@ -149,7 +149,7 @@
             this.MaximizeBox = false;
             this.Name = "DangNhapForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DangNhapForm";
+            this.Text = "Memory Card - Đăng Nhập";
             this.Load += new System.EventHandler(this.DangNhapForm_Load);
             this.grpDangNhap.ResumeLayout(false);
             this.grpDangNhap.PerformLayout();

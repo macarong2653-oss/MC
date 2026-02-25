@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="From\CaiDat\CaiDatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From\CaiDat\CaiDatForm.Designer.cs">
+      <DependentUpon>CaiDatForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="From\DangNhapForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="From\CaiDat\CaiDatForm.resx">
+      <DependentUpon>CaiDatForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="From\DangNhapForm.resx">
       <DependentUpon>DangNhapForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,7 +119,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="From\CaiDat\" />
     <Folder Include="From\LevelForm\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
