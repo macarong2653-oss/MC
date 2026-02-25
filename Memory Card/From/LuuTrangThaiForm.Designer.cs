@@ -29,19 +29,18 @@
         private void InitializeComponent()
         {
             this.grpLuuTrangThai = new System.Windows.Forms.GroupBox();
-            this.picChamHoi = new System.Windows.Forms.PictureBox();
             this.btnKhong = new System.Windows.Forms.Button();
             this.btnCo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblLuuTrangThai = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.grpLuuTrangThai.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picChamHoi)).BeginInit();
             this.SuspendLayout();
             // 
             // grpLuuTrangThai
             // 
             this.grpLuuTrangThai.BackColor = System.Drawing.Color.White;
-            this.grpLuuTrangThai.Controls.Add(this.picChamHoi);
+            this.grpLuuTrangThai.Controls.Add(this.label2);
             this.grpLuuTrangThai.Controls.Add(this.btnKhong);
             this.grpLuuTrangThai.Controls.Add(this.btnCo);
             this.grpLuuTrangThai.Controls.Add(this.label1);
@@ -52,14 +51,6 @@
             this.grpLuuTrangThai.TabIndex = 0;
             this.grpLuuTrangThai.TabStop = false;
             this.grpLuuTrangThai.Enter += new System.EventHandler(this.grpLuuTrangThai_Enter);
-            // 
-            // picChamHoi
-            // 
-            this.picChamHoi.Location = new System.Drawing.Point(208, 61);
-            this.picChamHoi.Name = "picChamHoi";
-            this.picChamHoi.Size = new System.Drawing.Size(100, 50);
-            this.picChamHoi.TabIndex = 0;
-            this.picChamHoi.TabStop = false;
             // 
             // btnKhong
             // 
@@ -103,6 +94,18 @@
             this.lblLuuTrangThai.TabIndex = 0;
             this.lblLuuTrangThai.Text = "LƯU TRẠNG THÁI GAME?";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Arial", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Gold;
+            this.label2.Location = new System.Drawing.Point(227, 48);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(62, 65);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "?";
+            // 
             // frmLuuTrangThai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -115,7 +118,6 @@
             this.Text = "Memory Card - Lưu Trạng Thái";
             this.grpLuuTrangThai.ResumeLayout(false);
             this.grpLuuTrangThai.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picChamHoi)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -127,6 +129,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnKhong;
         private System.Windows.Forms.Button btnCo;
-        private System.Windows.Forms.PictureBox picChamHoi;
+        private System.Windows.Forms.Label label2;
     }
 }
