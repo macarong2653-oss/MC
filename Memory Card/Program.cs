@@ -17,7 +17,7 @@ namespace Memory_Card
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DangNhapForm());
+            Application.Run(new frmDangNhap());
         }
     }
 }

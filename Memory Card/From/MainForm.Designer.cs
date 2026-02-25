@@ -30,6 +30,7 @@
         {
             this.pnlBoard = new System.Windows.Forms.Panel();
             this.pnlInfo = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.lblHints = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.lblScore = new System.Windows.Forms.Label();
@@ -40,15 +41,19 @@
             this.lblTime = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lalThongtin = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.btnPause = new System.Windows.Forms.Button();
+            this.btnHint = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.btnSettings = new System.Windows.Forms.Button();
+            this.btnQuit = new System.Windows.Forms.Button();
             this.pnlInfo.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBoard
             // 
-            this.pnlBoard.Location = new System.Drawing.Point(59, 160);
+            this.pnlBoard.Location = new System.Drawing.Point(53, 160);
             this.pnlBoard.Name = "pnlBoard";
-            this.pnlBoard.Size = new System.Drawing.Size(438, 397);
+            this.pnlBoard.Size = new System.Drawing.Size(489, 457);
             this.pnlBoard.TabIndex = 0;
             // 
             // pnlInfo
@@ -56,6 +61,11 @@
             this.pnlInfo.AutoSize = true;
             this.pnlInfo.BackColor = System.Drawing.Color.White;
             this.pnlInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlInfo.Controls.Add(this.btnQuit);
+            this.pnlInfo.Controls.Add(this.btnSettings);
+            this.pnlInfo.Controls.Add(this.btnReset);
+            this.pnlInfo.Controls.Add(this.btnHint);
+            this.pnlInfo.Controls.Add(this.btnPause);
             this.pnlInfo.Controls.Add(this.label3);
             this.pnlInfo.Controls.Add(this.lblHints);
             this.pnlInfo.Controls.Add(this.label8);
@@ -69,8 +79,19 @@
             this.pnlInfo.Controls.Add(this.lalThongtin);
             this.pnlInfo.Location = new System.Drawing.Point(565, 160);
             this.pnlInfo.Name = "pnlInfo";
-            this.pnlInfo.Size = new System.Drawing.Size(361, 397);
+            this.pnlInfo.Size = new System.Drawing.Size(363, 457);
             this.pnlInfo.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(48, 205);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(118, 27);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "⭐   Điểm: ";
             // 
             // lblHints
             // 
@@ -187,16 +208,66 @@
             this.lalThongtin.TabIndex = 0;
             this.lalThongtin.Text = "THÔNG TIN";
             // 
-            // label3
+            // btnPause
             // 
-            this.label3.AutoSize = true;
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(48, 205);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 27);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "⭐   Điểm: ";
+            this.btnPause.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPause.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPause.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnPause.Location = new System.Drawing.Point(40, 293);
+            this.btnPause.Name = "btnPause";
+            this.btnPause.Size = new System.Drawing.Size(126, 40);
+            this.btnPause.TabIndex = 12;
+            this.btnPause.Text = "⏸ PAUSE";
+            this.btnPause.UseVisualStyleBackColor = false;
+            // 
+            // btnHint
+            // 
+            this.btnHint.BackColor = System.Drawing.Color.Gold;
+            this.btnHint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHint.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHint.Location = new System.Drawing.Point(195, 294);
+            this.btnHint.Name = "btnHint";
+            this.btnHint.Size = new System.Drawing.Size(126, 40);
+            this.btnHint.TabIndex = 13;
+            this.btnHint.Text = "💡 HINT";
+            this.btnHint.UseVisualStyleBackColor = false;
+            // 
+            // btnReset
+            // 
+            this.btnReset.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReset.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(40, 349);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(126, 40);
+            this.btnReset.TabIndex = 14;
+            this.btnReset.Text = "🔄 RESET";
+            this.btnReset.UseVisualStyleBackColor = false;
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSettings.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.Location = new System.Drawing.Point(195, 349);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(126, 40);
+            this.btnSettings.TabIndex = 15;
+            this.btnSettings.Text = "⚙ CÀI ĐẶT";
+            this.btnSettings.UseVisualStyleBackColor = false;
+            // 
+            // btnQuit
+            // 
+            this.btnQuit.BackColor = System.Drawing.Color.Red;
+            this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQuit.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuit.Location = new System.Drawing.Point(125, 406);
+            this.btnQuit.Name = "btnQuit";
+            this.btnQuit.Size = new System.Drawing.Size(126, 40);
+            this.btnQuit.TabIndex = 16;
+            this.btnQuit.Text = "❌ THOÁT";
+            this.btnQuit.UseVisualStyleBackColor = false;
             // 
             // frmMain
             // 
@@ -233,5 +304,10 @@
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnPause;
+        private System.Windows.Forms.Button btnQuit;
+        private System.Windows.Forms.Button btnSettings;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnHint;
     }
 }

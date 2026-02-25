@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Memory_Card.From
 {
-    public partial class DangNhapForm : Form
+    public partial class frmDangNhap : Form
     {
-        public DangNhapForm()
+        public frmDangNhap()
         {
             InitializeComponent();
         }
@@ -47,11 +47,6 @@ namespace Memory_Card.From
         private void btnGuest_Click(object sender, EventArgs e)
         {
             
-        }
-
-        private void DangNhapForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

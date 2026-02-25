@@ -1,6 +1,6 @@
 ﻿namespace Memory_Card.From
 {
-    partial class HuongDanForm
+    partial class frmHuongDan
     {
         /// <summary>
         /// Required designer variable.

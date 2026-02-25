@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Memory_Card.From
 {
-    public partial class HuongDanForm : Form
+    public partial class frmHuongDan : Form
     {
-        public HuongDanForm()
+        public frmHuongDan()
         {
             InitializeComponent();
         }
