@@ -50,7 +50,8 @@
             // 
             // btnEasy
             // 
-            this.btnEasy.BackColor = System.Drawing.Color.Lime;
+            this.btnEasy.BackColor = System.Drawing.Color.Silver;
+            this.btnEasy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEasy.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnEasy.ForeColor = System.Drawing.Color.Black;
             this.btnEasy.Location = new System.Drawing.Point(246, 134);
@@ -62,7 +63,8 @@
             // 
             // btnMedium
             // 
-            this.btnMedium.BackColor = System.Drawing.Color.Yellow;
+            this.btnMedium.BackColor = System.Drawing.Color.Silver;
+            this.btnMedium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMedium.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnMedium.ForeColor = System.Drawing.Color.Black;
             this.btnMedium.Location = new System.Drawing.Point(423, 134);
@@ -74,7 +76,8 @@
             // 
             // btnHard
             // 
-            this.btnHard.BackColor = System.Drawing.Color.Red;
+            this.btnHard.BackColor = System.Drawing.Color.Silver;
+            this.btnHard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHard.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnHard.ForeColor = System.Drawing.Color.Black;
             this.btnHard.Location = new System.Drawing.Point(600, 134);
@@ -95,6 +98,7 @@
             // btnQuayLai
             // 
             this.btnQuayLai.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnQuayLai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuayLai.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnQuayLai.Location = new System.Drawing.Point(423, 597);
             this.btnQuayLai.Name = "btnQuayLai";
@@ -115,6 +119,7 @@
             this.Controls.Add(this.btnMedium);
             this.Controls.Add(this.btnEasy);
             this.Controls.Add(this.lblBXH);
+            this.MaximizeBox = false;
             this.Name = "frmXepHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory Card - Xếp Hạng";

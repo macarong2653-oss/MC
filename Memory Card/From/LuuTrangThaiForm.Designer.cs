@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.grpLuuTrangThai = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnKhong = new System.Windows.Forms.Button();
             this.btnCo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblLuuTrangThai = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.grpLuuTrangThai.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,17 +45,30 @@
             this.grpLuuTrangThai.Controls.Add(this.btnCo);
             this.grpLuuTrangThai.Controls.Add(this.label1);
             this.grpLuuTrangThai.Controls.Add(this.lblLuuTrangThai);
-            this.grpLuuTrangThai.Location = new System.Drawing.Point(245, 169);
+            this.grpLuuTrangThai.Location = new System.Drawing.Point(2, 1);
             this.grpLuuTrangThai.Name = "grpLuuTrangThai";
             this.grpLuuTrangThai.Size = new System.Drawing.Size(514, 323);
             this.grpLuuTrangThai.TabIndex = 0;
             this.grpLuuTrangThai.TabStop = false;
             this.grpLuuTrangThai.Enter += new System.EventHandler(this.grpLuuTrangThai_Enter);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Gold;
+            this.label2.Location = new System.Drawing.Point(227, 48);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 84);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "?";
+            // 
             // btnKhong
             // 
             this.btnKhong.BackColor = System.Drawing.Color.Red;
-            this.btnKhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnKhong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKhong.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnKhong.ForeColor = System.Drawing.Color.White;
             this.btnKhong.Location = new System.Drawing.Point(296, 239);
             this.btnKhong.Name = "btnKhong";
@@ -66,20 +79,21 @@
             // 
             // btnCo
             // 
-            this.btnCo.BackColor = System.Drawing.Color.Lime;
-            this.btnCo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnCo.BackColor = System.Drawing.Color.Green;
+            this.btnCo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCo.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnCo.ForeColor = System.Drawing.Color.White;
             this.btnCo.Location = new System.Drawing.Point(119, 239);
             this.btnCo.Name = "btnCo";
             this.btnCo.Size = new System.Drawing.Size(109, 57);
             this.btnCo.TabIndex = 2;
-            this.btnCo.Text = "✓Có";
+            this.btnCo.Text = "✓ Có";
             this.btnCo.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(109, 194);
+            this.label1.Location = new System.Drawing.Point(115, 194);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(296, 20);
             this.label1.TabIndex = 1;
@@ -94,25 +108,14 @@
             this.lblLuuTrangThai.TabIndex = 0;
             this.lblLuuTrangThai.Text = "LƯU TRẠNG THÁI GAME?";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Arial", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Gold;
-            this.label2.Location = new System.Drawing.Point(227, 48);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 65);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "?";
-            // 
             // frmLuuTrangThai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.ClientSize = new System.Drawing.Size(978, 694);
+            this.ClientSize = new System.Drawing.Size(519, 322);
             this.Controls.Add(this.grpLuuTrangThai);
+            this.MaximizeBox = false;
             this.Name = "frmLuuTrangThai";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory Card - Lưu Trạng Thái";

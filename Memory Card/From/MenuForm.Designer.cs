@@ -188,6 +188,7 @@
             this.btnStart.TabIndex = 11;
             this.btnStart.Text = "START";
             this.btnStart.UseVisualStyleBackColor = false;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnLeaderboard
             // 

@@ -48,5 +48,10 @@ namespace Memory_Card.From
         {
             
         }
+
+        private void txtPlayerName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
