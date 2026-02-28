@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.grpLuuTrangThai = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblChamHoi = new System.Windows.Forms.Label();
             this.btnKhong = new System.Windows.Forms.Button();
             this.btnCo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,7 +40,7 @@
             // grpLuuTrangThai
             // 
             this.grpLuuTrangThai.BackColor = System.Drawing.Color.White;
-            this.grpLuuTrangThai.Controls.Add(this.label2);
+            this.grpLuuTrangThai.Controls.Add(this.lblChamHoi);
             this.grpLuuTrangThai.Controls.Add(this.btnKhong);
             this.grpLuuTrangThai.Controls.Add(this.btnCo);
             this.grpLuuTrangThai.Controls.Add(this.label1);
@@ -52,17 +52,17 @@
             this.grpLuuTrangThai.TabStop = false;
             this.grpLuuTrangThai.Enter += new System.EventHandler(this.grpLuuTrangThai_Enter);
             // 
-            // label2
+            // lblChamHoi
             // 
-            this.label2.AutoSize = true;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Gold;
-            this.label2.Location = new System.Drawing.Point(227, 48);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 84);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "?";
+            this.lblChamHoi.Font = new System.Drawing.Font("Arial", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblChamHoi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblChamHoi.Location = new System.Drawing.Point(212, 22);
+            this.lblChamHoi.Name = "lblChamHoi";
+            this.lblChamHoi.Size = new System.Drawing.Size(107, 102);
+            this.lblChamHoi.TabIndex = 4;
+            this.lblChamHoi.Text = "?";
+            this.lblChamHoi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            
             // 
             // btnKhong
             // 
@@ -132,6 +132,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnKhong;
         private System.Windows.Forms.Button btnCo;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblChamHoi;
     }
 }
