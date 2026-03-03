@@ -288,6 +288,7 @@
             // btnQuayLai
             // 
             this.btnQuayLai.BackColor = System.Drawing.Color.Gray;
+            this.btnQuayLai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuayLai.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnQuayLai.ForeColor = System.Drawing.Color.White;
             this.btnQuayLai.Location = new System.Drawing.Point(213, 580);
@@ -301,6 +302,7 @@
             // btnPlay
             // 
             this.btnPlay.BackColor = System.Drawing.Color.Green;
+            this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlay.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnPlay.ForeColor = System.Drawing.Color.White;
             this.btnPlay.Location = new System.Drawing.Point(611, 580);
@@ -320,6 +322,7 @@
             this.Controls.Add(this.btnQuayLai);
             this.Controls.Add(this.grpHuongDan);
             this.Controls.Add(this.lblHuongDan);
+            this.MaximizeBox = false;
             this.Name = "frmHuongDan";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

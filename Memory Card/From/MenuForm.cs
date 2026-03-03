@@ -21,5 +21,11 @@ namespace Memory_Card.From
         {
 
         }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            
+
+        }
     }
 }
