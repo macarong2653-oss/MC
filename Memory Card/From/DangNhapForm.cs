@@ -29,6 +29,9 @@ namespace Memory_Card.From
                     MessageBoxIcon.Warning);
                 return;
             }
+            frmMenu f = new frmMenu();
+            f.Show();
+            this.Hide();
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
