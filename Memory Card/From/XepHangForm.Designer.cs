@@ -89,6 +89,7 @@
             // 
             // grpBXH
             // 
+            this.grpBXH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.grpBXH.Location = new System.Drawing.Point(246, 224);
             this.grpBXH.Name = "grpBXH";
             this.grpBXH.Size = new System.Drawing.Size(497, 351);
