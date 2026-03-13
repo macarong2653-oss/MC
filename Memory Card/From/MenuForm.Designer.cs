@@ -55,6 +55,7 @@
             this.lblPlayer.Size = new System.Drawing.Size(77, 26);
             this.lblPlayer.TabIndex = 0;
             this.lblPlayer.Text = "Player: ";
+            this.lblPlayer.Click += new System.EventHandler(this.lblPlayer_Click);
             // 
             // lblTitle
             // 
@@ -266,6 +267,7 @@
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory Card - Menu";
+            this.Load += new System.EventHandler(this.frmMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

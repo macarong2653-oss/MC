@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Memory_Card.From
 {
@@ -29,7 +30,8 @@ namespace Memory_Card.From
                     MessageBoxIcon.Warning);
                 return;
             }
-            frmMenu f = new frmMenu();
+            string player = txtPlayerName.Text;
+            frmMenu f = new frmMenu(player);
             f.Show();
             this.Hide();
         }
@@ -49,7 +51,9 @@ namespace Memory_Card.From
 
         private void btnGuest_Click(object sender, EventArgs e)
         {
-         
+            frmMenu f=new frmMenu("Guest");
+            f.Show();
+            this.Hide();
         }
 
         private void txtPlayerName_TextChanged(object sender, EventArgs e)

@@ -12,9 +12,11 @@ namespace Memory_Card.From
 {
     public partial class frmMenu : Form
     {
-        public frmMenu()
+        string playerName;
+        public frmMenu(string name)
         {
             InitializeComponent();
+            playerName = name;
         }
 
         private void btnHowToPlay_Click(object sender, EventArgs e)
@@ -25,6 +27,16 @@ namespace Memory_Card.From
         private void btnStart_Click(object sender, EventArgs e)
         {
             
+
+        }
+
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+            lblPlayer.Text = "Player: " + playerName;
+        }
+
+        private void lblPlayer_Click(object sender, EventArgs e)
+        {
 
         }
     }
